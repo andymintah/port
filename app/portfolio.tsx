@@ -160,21 +160,21 @@ delivering high-quality engineering outcomes in regulated environments.
                 company: 'Natwest Group/Bigspark',
                 period: '2022 - Present',
                 description: 'Designed and owned microservices powering a distributed data platform used across the bank, handling 1,000+ daily API requests with >99.9% reliability, facilitating data-driven decision making in banking operations.',
-                skills: ['Java', 'AWS', 'Terraform', 'Kubernetes']
+                skills: ['Java', 'AWS', 'Terraform', 'Spark', 'Kafka']
               },
               {
                 title: 'Applications Engineer',
                 company: 'Ecobank Transnational Inc.',
                 period: '2020 - 2022',
                 description: 'Built and integrated APIs connecting digital wallets, CRM, and loan management platforms, supporting services for 1M+ customers across 33 countries. Improved customer journeys by implementing backend integrations for account services and digital onboarding.',
-                skills: ['Java', 'Spring Boot', 'AWS']
+                skills: ['Java', 'Weblogic', 'Web Services']
               },
               {
                 title: 'Integrations Engineer',
                 company: 'Ecobank Transnational Inc.',
                 period: '2016- 2020',
                 description: ' Developed a centralised API gateway improving transaction throughput andreducing failure rates across multiple financial products.',
-                skills: ['Java', 'Spring Boot', 'AWS']
+                skills: ['IBM MQ', 'Mule ESB', 'Oracle Flexcube', 'Java']
               }
             ].map((job, index) => (
               <div key={index} className="bg-slate-900/50 rounded-lg p-6 border border-blue-500/20 hover:border-blue-500/40 transition-colors">
@@ -182,7 +182,7 @@ delivering high-quality engineering outcomes in regulated environments.
                 <p className="text-gray-400 mb-2">{job.company} • {job.period}</p>
                 <p className="text-gray-300">{job.description}</p>
                 {job.skills.map((tech, i) => (
-                    <span key={i} className="px-3 py-1 bg-blue-600/20 text-blue-300 rounded-full text-sm">
+                    <span key={i} className="mt-2 px-3 py-1 bg-blue-600/20 text-blue-300 rounded-full text-sm">
                       {tech}
                     </span>
                   ))}
