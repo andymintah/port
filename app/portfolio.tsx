@@ -180,7 +180,7 @@ delivering high-quality engineering outcomes in regulated environments.
               <div key={index} className="bg-slate-900/50 rounded-lg p-6 border border-blue-500/20 hover:border-blue-500/40 transition-colors">
                 <h3 className="text-2xl font-semibold text-blue-400 mb-2">{job.title}</h3>
                 <p className="text-gray-400 mb-2">{job.company} • {job.period}</p>
-                <p className="text-gray-300">{job.description}</p>
+                <p className="text-gray-300 mb-3" >{job.description}</p>
                 {job.skills.map((tech, i) => (
                     <span key={i} className="mt-2 px-3 py-1 bg-blue-600/20 text-blue-300 rounded-full text-sm">
                       {tech}
